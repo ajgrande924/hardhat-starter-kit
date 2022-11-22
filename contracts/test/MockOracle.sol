@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.6;
 
-import "@chainlink/contracts/src/v0.6/LinkTokenReceiver.sol";
-import "@chainlink/contracts/src/v0.6/interfaces/ChainlinkRequestInterface.sol";
-import "@chainlink/contracts/src/v0.6/interfaces/LinkTokenInterface.sol";
-import "@chainlink/contracts/src/v0.6/vendor/SafeMathChainlink.sol";
+import "@smartcontractkit/contracts-0.6.0/src/LinkTokenReceiver.sol";
+import "@smartcontractkit/contracts-0.6.0/src/interfaces/ChainlinkRequestInterface.sol";
+import "@smartcontractkit/contracts-0.6.0/src/interfaces/LinkTokenInterface.sol";
+import "@smartcontractkit/contracts-0.6.0/src/vendor/SafeMathChainlink.sol";
 
 /**
  * @title The Chainlink Mock Oracle contract
